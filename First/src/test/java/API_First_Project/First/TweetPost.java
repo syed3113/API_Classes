@@ -22,7 +22,7 @@ public class TweetPost {
 		 .contentType(ContentType.JSON)
 		 .auth()
 		 .oauth(consumer_key, consumer_secret, access_token, access_secret)
-		 .queryParam("status", "This is my first tweet")
+		 .queryParam("status", "This is my second tweet")
 		 
 		 .when()
 		 .post("/update.json");
